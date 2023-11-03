@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.boardContainer {
+    display: grid;
+    grid-template: repeat(3, 200px) / repeat(3, 200px);
+    background-color: rgb(88, 177, 147);
+    border-radius: 24px;
+    padding: 16px;
+    justify-content: center;
+    margin: 4px;
+}
+
+.tile {
+    background-color: rgb(101, 204, 170);
+}
+
+.t11 {
+    border: solid black 2px;
+}
+
+.t01, .t21 {
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+
+.t10, .t12 {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
