@@ -15,7 +15,7 @@ body {
 .boardContainer {
     display: grid;
     grid-template: repeat(3, 200px) / repeat(3, 200px);
-    background-color: rgb(88, 177, 147);
+    background-color: rgb(88, 89, 177);
     border-radius: 24px;
     padding: 16px;
     justify-content: center;
@@ -23,19 +23,21 @@ body {
 }
 
 .tile {
-    background-color: rgb(101, 204, 170);
+    background-color: rgb(109, 116, 219);
+    text-align: center;
+    font-size: 180px;
 }
 
-.t11 {
-    border: solid black 2px;
+.t4 {
+    border: solid black 4px;
 }
 
-.t01, .t21 {
-    border-left: solid black 2px;
-    border-right: solid black 2px;
+.t1, .t7 {
+    border-left: solid black 4px;
+    border-right: solid black 4px;
 }
 
-.t10, .t12 {
-    border-top: solid black 2px;
-    border-bottom: solid black 2px;
+.t3, .t5 {
+    border-top: solid black 4px;
+    border-bottom: solid black 4px;
 }
